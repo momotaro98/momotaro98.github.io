@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zigbee on Shintaro Ikeda</title>
+    <link>http://example.org/tags/zigbee/</link>
+    <description>Recent content in Zigbee on Shintaro Ikeda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Apr 2016 12:41:05 -0500</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/zigbee/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>auto-curtain</title>
+      <link>http://example.org/projects/creations/auto-curtain/</link>
+      <pubDate>Mon, 11 Apr 2016 12:41:05 -0500</pubDate>
+      
+      <guid>http://example.org/projects/creations/auto-curtain/</guid>
+      <description>I implemented automatically working curtain in my room. It can be also operated by your device.</description>
+    </item>
+    
+  </channel>
+</rss>

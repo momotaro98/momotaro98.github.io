@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Shintaro Ikeda</title>
+    <link>http://example.org/tags/python/</link>
+    <description>Recent content in Python on Shintaro Ikeda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Dec 2016 12:41:05 -0500</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Decision Tree for HEMS Recommendations</title>
+      <link>http://example.org/projects/creations/decision-tree-for-hems-recommendations/</link>
+      <pubDate>Mon, 12 Dec 2016 12:41:05 -0500</pubDate>
+      
+      <guid>http://example.org/projects/creations/decision-tree-for-hems-recommendations/</guid>
+      <description>Decision Tree for HEMS Recommendations is library for human behavior recommendation of Home Energy Management System(HEMS) using Decition Tree learning.
+This is for my master degree research.</description>
+    </item>
+    
+    <item>
+      <title>momotaro-task-app</title>
+      <link>http://example.org/projects/creations/momotaro-task-app/</link>
+      <pubDate>Thu, 11 Feb 2016 12:41:05 -0500</pubDate>
+      
+      <guid>http://example.org/projects/creations/momotaro-task-app/</guid>
+      <description>momotaro-task-app is a feature-rich task management tool
+Features  Setting task execution timefile WEB timerfile Send execution result mailfile Executed task visualizationfile Target setting for task addifile  Application link is here.</description>
+    </item>
+    
+  </channel>
+</rss>

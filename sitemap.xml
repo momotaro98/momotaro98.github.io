@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/projects/creations/</loc>
+    <lastmod>2018-04-11T12:41:05-05:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/projects/contributions/</loc>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/projects/contributions/door-api/</loc>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2018-05-13T18:56:13-05:00</lastmod>
+    <priority>1</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/projects/creations/yanara-bot/</loc>
+    <lastmod>2018-04-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/projects/creations/alert-on-viber/</loc>
+    <lastmod>2017-12-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/projects/creations/page-contents-sidebar/</loc>
+    <lastmod>2017-02-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/projects/creations/qiic/</loc>
+    <lastmod>2017-02-10T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/projects/creations/decision-tree-for-hems-recommendations/</loc>
+    <lastmod>2016-12-12T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/projects/creations/auto-curtain/</loc>
+    <lastmod>2016-04-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/projects/creations/momotaro-task-app/</loc>
+    <lastmod>2016-02-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/arduino/</loc>
+    <lastmod>2016-04-11T12:41:05-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/azure/</loc>
+    <lastmod>2017-12-11T12:41:05-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/azure-functions/</loc>
+    <lastmod>2018-04-11T12:41:05-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/azure-table-storage/</loc>
+    <lastmod>2017-12-11T12:41:05-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/bot/</loc>
+    <lastmod>2018-04-11T12:41:05-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/chrome-extension/</loc>
+    <lastmod>2017-02-11T12:41:05-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/cli-app/</loc>
+    <lastmod>2017-02-10T12:41:05-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/csharp/</loc>
+    <lastmod>2018-04-11T12:41:05-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/flask/</loc>
+    <lastmod>2016-02-11T12:41:05-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/go/</loc>
+    <lastmod>2018-04-11T12:41:05-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/javascript/</loc>
+    <lastmod>2017-02-11T12:41:05-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/machine-learning/</loc>
+    <lastmod>2016-12-12T12:41:05-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/natural-language-processing/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/network/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/postgresql/</loc>
+    <lastmod>2016-02-11T12:41:05-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/projects/</loc>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/python/</loc>
+    <lastmod>2016-12-12T12:41:05-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/raspberry-pi/</loc>
+    <lastmod>2016-04-11T12:41:05-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/research/</loc>
+    <lastmod>2016-12-12T12:41:05-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/rest-apis/</loc>
+    <lastmod>2018-04-11T12:41:05-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+    <lastmod>2016-04-11T12:41:05-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/zigbee/</loc>
+    <lastmod>2016-04-11T12:41:05-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

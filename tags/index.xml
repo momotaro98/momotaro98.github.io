@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Shintaro Ikeda</title>
+    <link>http://example.org/tags/</link>
+    <description>Recent content in Tags on Shintaro Ikeda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Apr 2016 12:41:05 -0500</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Arduino</title>
+      <link>http://example.org/tags/arduino/</link>
+      <pubDate>Mon, 11 Apr 2016 12:41:05 -0500</pubDate>
+      
+      <guid>http://example.org/tags/arduino/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Azure</title>
+      <link>http://example.org/tags/azure/</link>
+      <pubDate>Mon, 11 Dec 2017 12:41:05 -0500</pubDate>
+      
+      <guid>http://example.org/tags/azure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Azure Functions</title>
+      <link>http://example.org/tags/azure-functions/</link>
+      <pubDate>Wed, 11 Apr 2018 12:41:05 -0500</pubDate>
+      
+      <guid>http://example.org/tags/azure-functions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Azure Table Storage</title>
+      <link>http://example.org/tags/azure-table-storage/</link>
+      <pubDate>Mon, 11 Dec 2017 12:41:05 -0500</pubDate>
+      
+      <guid>http://example.org/tags/azure-table-storage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bot</title>
+      <link>http://example.org/tags/bot/</link>
+      <pubDate>Wed, 11 Apr 2018 12:41:05 -0500</pubDate>
+      
+      <guid>http://example.org/tags/bot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chrome Extension</title>
+      <link>http://example.org/tags/chrome-extension/</link>
+      <pubDate>Sat, 11 Feb 2017 12:41:05 -0500</pubDate>
+      
+      <guid>http://example.org/tags/chrome-extension/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cli App</title>
+      <link>http://example.org/tags/cli-app/</link>
+      <pubDate>Fri, 10 Feb 2017 12:41:05 -0500</pubDate>
+      
+      <guid>http://example.org/tags/cli-app/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Csharp</title>
+      <link>http://example.org/tags/csharp/</link>
+      <pubDate>Wed, 11 Apr 2018 12:41:05 -0500</pubDate>
+      
+      <guid>http://example.org/tags/csharp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flask</title>
+      <link>http://example.org/tags/flask/</link>
+      <pubDate>Thu, 11 Feb 2016 12:41:05 -0500</pubDate>
+      
+      <guid>http://example.org/tags/flask/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Go</title>
+      <link>http://example.org/tags/go/</link>
+      <pubDate>Wed, 11 Apr 2018 12:41:05 -0500</pubDate>
+      
+      <guid>http://example.org/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript</title>
+      <link>http://example.org/tags/javascript/</link>
+      <pubDate>Sat, 11 Feb 2017 12:41:05 -0500</pubDate>
+      
+      <guid>http://example.org/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>http://example.org/tags/machine-learning/</link>
+      <pubDate>Mon, 12 Dec 2016 12:41:05 -0500</pubDate>
+      
+      <guid>http://example.org/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Natural Language Processing</title>
+      <link>http://example.org/tags/natural-language-processing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/natural-language-processing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Network</title>
+      <link>http://example.org/tags/network/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/network/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Postgresql</title>
+      <link>http://example.org/tags/postgresql/</link>
+      <pubDate>Thu, 11 Feb 2016 12:41:05 -0500</pubDate>
+      
+      <guid>http://example.org/tags/postgresql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://example.org/tags/python/</link>
+      <pubDate>Mon, 12 Dec 2016 12:41:05 -0500</pubDate>
+      
+      <guid>http://example.org/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi</title>
+      <link>http://example.org/tags/raspberry-pi/</link>
+      <pubDate>Mon, 11 Apr 2016 12:41:05 -0500</pubDate>
+      
+      <guid>http://example.org/tags/raspberry-pi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>http://example.org/tags/research/</link>
+      <pubDate>Mon, 12 Dec 2016 12:41:05 -0500</pubDate>
+      
+      <guid>http://example.org/tags/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rest Apis</title>
+      <link>http://example.org/tags/rest-apis/</link>
+      <pubDate>Wed, 11 Apr 2018 12:41:05 -0500</pubDate>
+      
+      <guid>http://example.org/tags/rest-apis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zigbee</title>
+      <link>http://example.org/tags/zigbee/</link>
+      <pubDate>Mon, 11 Apr 2016 12:41:05 -0500</pubDate>
+      
+      <guid>http://example.org/tags/zigbee/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

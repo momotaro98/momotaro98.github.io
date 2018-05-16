@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chrome Extension on Shintaro Ikeda</title>
+    <link>http://example.org/tags/chrome-extension/</link>
+    <description>Recent content in Chrome Extension on Shintaro Ikeda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 11 Feb 2017 12:41:05 -0500</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/chrome-extension/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Page Contents Sidebar</title>
+      <link>http://example.org/projects/creations/page-contents-sidebar/</link>
+      <pubDate>Sat, 11 Feb 2017 12:41:05 -0500</pubDate>
+      
+      <guid>http://example.org/projects/creations/page-contents-sidebar/</guid>
+      <description>Page Contents Sidebar is Google Chrome extension for Markdown on Gist
+Features  Display header title of Markdown file Jump to target area Change the depth of the display header Track and focus on current browsing points Change the sidebar width The sidebar can be hidden with a single button  Application link is here.</description>
+    </item>
+    
+  </channel>
+</rss>
