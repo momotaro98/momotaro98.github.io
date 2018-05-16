@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Network on Shintaro Ikeda</title>
-    <link>http://example.org/tags/network/</link>
+    <link>https://momotaro98.github.io/tags/network/</link>
     <description>Recent content in Network on Shintaro Ikeda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.org/tags/network/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://momotaro98.github.io/tags/network/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>door-api</title>
-      <link>http://example.org/projects/contributions/door-api/</link>
+      <link>https://momotaro98.github.io/projects/contributions/door-api/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/projects/contributions/door-api/</guid>
+      <guid>https://momotaro98.github.io/projects/contributions/door-api/</guid>
       <description>door-api is a rest server to provide Deep Packet Inspection obtained by DOOR. DooR is Deep packet inspectOr On Router.</description>
     </item>
     

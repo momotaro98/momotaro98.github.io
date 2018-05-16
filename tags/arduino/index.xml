@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Arduino on Shintaro Ikeda</title>
-    <link>http://example.org/tags/arduino/</link>
+    <link>https://momotaro98.github.io/tags/arduino/</link>
     <description>Recent content in Arduino on Shintaro Ikeda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 11 Apr 2016 12:41:05 -0500</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/arduino/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://momotaro98.github.io/tags/arduino/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>auto-curtain</title>
-      <link>http://example.org/projects/creations/auto-curtain/</link>
+      <link>https://momotaro98.github.io/projects/creations/auto-curtain/</link>
       <pubDate>Mon, 11 Apr 2016 12:41:05 -0500</pubDate>
       
-      <guid>http://example.org/projects/creations/auto-curtain/</guid>
+      <guid>https://momotaro98.github.io/projects/creations/auto-curtain/</guid>
       <description>I implemented automatically working curtain in my room. It can be also operated by your device.</description>
     </item>
     

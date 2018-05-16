@@ -2,192 +2,192 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Shintaro Ikeda</title>
-    <link>http://example.org/tags/</link>
+    <link>https://momotaro98.github.io/tags/</link>
     <description>Recent content in Tags on Shintaro Ikeda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 11 Apr 2016 12:41:05 -0500</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://momotaro98.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Arduino</title>
-      <link>http://example.org/tags/arduino/</link>
+      <link>https://momotaro98.github.io/tags/arduino/</link>
       <pubDate>Mon, 11 Apr 2016 12:41:05 -0500</pubDate>
       
-      <guid>http://example.org/tags/arduino/</guid>
+      <guid>https://momotaro98.github.io/tags/arduino/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Azure</title>
-      <link>http://example.org/tags/azure/</link>
+      <link>https://momotaro98.github.io/tags/azure/</link>
       <pubDate>Mon, 11 Dec 2017 12:41:05 -0500</pubDate>
       
-      <guid>http://example.org/tags/azure/</guid>
+      <guid>https://momotaro98.github.io/tags/azure/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Azure Functions</title>
-      <link>http://example.org/tags/azure-functions/</link>
+      <link>https://momotaro98.github.io/tags/azure-functions/</link>
       <pubDate>Wed, 11 Apr 2018 12:41:05 -0500</pubDate>
       
-      <guid>http://example.org/tags/azure-functions/</guid>
+      <guid>https://momotaro98.github.io/tags/azure-functions/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Azure Table Storage</title>
-      <link>http://example.org/tags/azure-table-storage/</link>
+      <link>https://momotaro98.github.io/tags/azure-table-storage/</link>
       <pubDate>Mon, 11 Dec 2017 12:41:05 -0500</pubDate>
       
-      <guid>http://example.org/tags/azure-table-storage/</guid>
+      <guid>https://momotaro98.github.io/tags/azure-table-storage/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bot</title>
-      <link>http://example.org/tags/bot/</link>
+      <link>https://momotaro98.github.io/tags/bot/</link>
       <pubDate>Wed, 11 Apr 2018 12:41:05 -0500</pubDate>
       
-      <guid>http://example.org/tags/bot/</guid>
+      <guid>https://momotaro98.github.io/tags/bot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Chrome Extension</title>
-      <link>http://example.org/tags/chrome-extension/</link>
+      <link>https://momotaro98.github.io/tags/chrome-extension/</link>
       <pubDate>Sat, 11 Feb 2017 12:41:05 -0500</pubDate>
       
-      <guid>http://example.org/tags/chrome-extension/</guid>
+      <guid>https://momotaro98.github.io/tags/chrome-extension/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cli App</title>
-      <link>http://example.org/tags/cli-app/</link>
+      <link>https://momotaro98.github.io/tags/cli-app/</link>
       <pubDate>Fri, 10 Feb 2017 12:41:05 -0500</pubDate>
       
-      <guid>http://example.org/tags/cli-app/</guid>
+      <guid>https://momotaro98.github.io/tags/cli-app/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Csharp</title>
-      <link>http://example.org/tags/csharp/</link>
+      <link>https://momotaro98.github.io/tags/csharp/</link>
       <pubDate>Wed, 11 Apr 2018 12:41:05 -0500</pubDate>
       
-      <guid>http://example.org/tags/csharp/</guid>
+      <guid>https://momotaro98.github.io/tags/csharp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Flask</title>
-      <link>http://example.org/tags/flask/</link>
+      <link>https://momotaro98.github.io/tags/flask/</link>
       <pubDate>Thu, 11 Feb 2016 12:41:05 -0500</pubDate>
       
-      <guid>http://example.org/tags/flask/</guid>
+      <guid>https://momotaro98.github.io/tags/flask/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Go</title>
-      <link>http://example.org/tags/go/</link>
+      <link>https://momotaro98.github.io/tags/go/</link>
       <pubDate>Wed, 11 Apr 2018 12:41:05 -0500</pubDate>
       
-      <guid>http://example.org/tags/go/</guid>
+      <guid>https://momotaro98.github.io/tags/go/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Javascript</title>
-      <link>http://example.org/tags/javascript/</link>
+      <link>https://momotaro98.github.io/tags/javascript/</link>
       <pubDate>Sat, 11 Feb 2017 12:41:05 -0500</pubDate>
       
-      <guid>http://example.org/tags/javascript/</guid>
+      <guid>https://momotaro98.github.io/tags/javascript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Machine Learning</title>
-      <link>http://example.org/tags/machine-learning/</link>
+      <link>https://momotaro98.github.io/tags/machine-learning/</link>
       <pubDate>Mon, 12 Dec 2016 12:41:05 -0500</pubDate>
       
-      <guid>http://example.org/tags/machine-learning/</guid>
+      <guid>https://momotaro98.github.io/tags/machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Natural Language Processing</title>
-      <link>http://example.org/tags/natural-language-processing/</link>
+      <link>https://momotaro98.github.io/tags/natural-language-processing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/natural-language-processing/</guid>
+      <guid>https://momotaro98.github.io/tags/natural-language-processing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Network</title>
-      <link>http://example.org/tags/network/</link>
+      <link>https://momotaro98.github.io/tags/network/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/network/</guid>
+      <guid>https://momotaro98.github.io/tags/network/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Postgresql</title>
-      <link>http://example.org/tags/postgresql/</link>
+      <link>https://momotaro98.github.io/tags/postgresql/</link>
       <pubDate>Thu, 11 Feb 2016 12:41:05 -0500</pubDate>
       
-      <guid>http://example.org/tags/postgresql/</guid>
+      <guid>https://momotaro98.github.io/tags/postgresql/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>http://example.org/tags/python/</link>
+      <link>https://momotaro98.github.io/tags/python/</link>
       <pubDate>Mon, 12 Dec 2016 12:41:05 -0500</pubDate>
       
-      <guid>http://example.org/tags/python/</guid>
+      <guid>https://momotaro98.github.io/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Raspberry Pi</title>
-      <link>http://example.org/tags/raspberry-pi/</link>
+      <link>https://momotaro98.github.io/tags/raspberry-pi/</link>
       <pubDate>Mon, 11 Apr 2016 12:41:05 -0500</pubDate>
       
-      <guid>http://example.org/tags/raspberry-pi/</guid>
+      <guid>https://momotaro98.github.io/tags/raspberry-pi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Research</title>
-      <link>http://example.org/tags/research/</link>
+      <link>https://momotaro98.github.io/tags/research/</link>
       <pubDate>Mon, 12 Dec 2016 12:41:05 -0500</pubDate>
       
-      <guid>http://example.org/tags/research/</guid>
+      <guid>https://momotaro98.github.io/tags/research/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rest Apis</title>
-      <link>http://example.org/tags/rest-apis/</link>
+      <link>https://momotaro98.github.io/tags/rest-apis/</link>
       <pubDate>Wed, 11 Apr 2018 12:41:05 -0500</pubDate>
       
-      <guid>http://example.org/tags/rest-apis/</guid>
+      <guid>https://momotaro98.github.io/tags/rest-apis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Zigbee</title>
-      <link>http://example.org/tags/zigbee/</link>
+      <link>https://momotaro98.github.io/tags/zigbee/</link>
       <pubDate>Mon, 11 Apr 2016 12:41:05 -0500</pubDate>
       
-      <guid>http://example.org/tags/zigbee/</guid>
+      <guid>https://momotaro98.github.io/tags/zigbee/</guid>
       <description></description>
     </item>
     

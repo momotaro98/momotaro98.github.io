@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cli App on Shintaro Ikeda</title>
-    <link>http://example.org/tags/cli-app/</link>
+    <link>https://momotaro98.github.io/tags/cli-app/</link>
     <description>Recent content in Cli App on Shintaro Ikeda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 10 Feb 2017 12:41:05 -0500</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/cli-app/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://momotaro98.github.io/tags/cli-app/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>qiic</title>
-      <link>http://example.org/projects/creations/qiic/</link>
+      <link>https://momotaro98.github.io/projects/creations/qiic/</link>
       <pubDate>Fri, 10 Feb 2017 12:41:05 -0500</pubDate>
       
-      <guid>http://example.org/projects/creations/qiic/</guid>
+      <guid>https://momotaro98.github.io/projects/creations/qiic/</guid>
       <description>qiic is command line tool for Qiita service data using their v1 API.
 Features  get your 20 Stocked Qiita articles show the articles with readable table open the articles in your browser with an allocated number  Application link is here.</description>
     </item>
