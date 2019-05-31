@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Firebase on Shintaro Ikeda</title>
+    <link>https://momotaro98.github.io/tags/firebase/</link>
+    <description>Recent content in Firebase on Shintaro Ikeda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 May 2019 12:41:05 -0500</lastBuildDate>
+    
+	<atom:link href="https://momotaro98.github.io/tags/firebase/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MixLunch</title>
+      <link>https://momotaro98.github.io/projects/creations/mixlunch/</link>
+      <pubDate>Wed, 01 May 2019 12:41:05 -0500</pubDate>
+      
+      <guid>https://momotaro98.github.io/projects/creations/mixlunch/</guid>
+      <description>MixLunch is a lunch platform which helps people connect with each other.
+https://www.mixlunch.com/
+Description slides are here.
+ </description>
+    </item>
+    
+  </channel>
+</rss>
