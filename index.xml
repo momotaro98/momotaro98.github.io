@@ -21,12 +21,12 @@
     </item>
     
     <item>
-      <title>MixLunch</title>
+      <title>Mixlunch</title>
       <link>https://momotaro98.github.io/projects/creations/mixlunch/</link>
       <pubDate>Wed, 01 May 2019 12:41:05 -0500</pubDate>
       
       <guid>https://momotaro98.github.io/projects/creations/mixlunch/</guid>
-      <description>MixLunch is a lunch platform which helps people connect with each other.
+      <description>Mixlunch is a lunch platform which helps people connect with each other.
 https://www.mixlunch.com/
 Description slides are here.
  </description>
@@ -70,7 +70,7 @@ Features  Display header title of Markdown file Jump to target area Change the d
       <pubDate>Fri, 10 Feb 2017 12:41:05 -0500</pubDate>
       
       <guid>https://momotaro98.github.io/projects/creations/qiic/</guid>
-      <description>qiic is command line tool for Qiita service data using their v1 API.
+      <description>qiic is an unofficial CLI Tool of Qiita service.
 Features  get your 20 Stocked Qiita articles show the articles with readable table open the articles in your browser with an allocated number  Application link is here.</description>
     </item>
     
