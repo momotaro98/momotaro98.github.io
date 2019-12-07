@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Grpc on Shintaro Ikeda</title>
+    <title>gRPC on Shintaro Ikeda</title>
     <link>https://momotaro98.github.io/tags/grpc/</link>
-    <description>Recent content in Grpc on Shintaro Ikeda</description>
+    <description>Recent content in gRPC on Shintaro Ikeda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 May 2019 12:41:05 -0500</lastBuildDate>
