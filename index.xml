@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TBD</title>
+    <link>http://example.org/</link>
+    <description>Recent content on TBD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© momotaro98</copyright>
+    <lastBuildDate>Sun, 23 Feb 2020 19:11:31 +0900</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GitHub公式のHow to Contribute to Open Sourceが神ガイドだった</title>
+      <link>http://example.org/posts/post-2/</link>
+      <pubDate>Sun, 23 Feb 2020 19:11:31 +0900</pubDate>
+      
+      <guid>http://example.org/posts/post-2/</guid>
+      <description>はじめに GitHub公式のHow to Contribute to Open Source  (日本語版)が神だったので備忘録がてら要約的に記載。
+OSSにコントリビュートしたいけどどうしたら良いかわからない人は絶対一読するべき。
+Section 1 OSSにコントリビュートする理由は？ とても重要なところです。そもそもなぜOSSにあえてコントリビュートするのか言語化されています。
+ 既に持っているスキルを改善する   あなたが練習したいと思っていることが、コーディングであれ、UIデザインやグラフィックデザイン、文章を書くこと、組織を作ることであれ、オープンソースプロジェクトにはあなたのためのタスクがあります。
+ スキルを伸ばし世の中にも貢献できる一石N鳥だと考えることができますね。
+ 似たようなことに興味を持っている人に会う   多くの人がオープンソースに参加することによって生涯に渡る友好関係を築いています。
+ GitHubを通したコミュニティが生涯に渡る友人に出会わせてくれると意識してみましょう。
+ メンターを見つけ互いに教えあう   学習し、教えることは関わる人全てにとって充実した活動となります。
+ 1人きりで学習するよりも相互に教え合うことが相乗効果を生むのはよく知られています。
+ あなたの評判（やキャリア）を育てるのに役立つ成果物を作り上げる   その定義からして、すべてのオープンソースはパブリックです。このことはあなたがやっていることをどこでも自由に紹介できる事例を得られるということを意味します。
+ このご時世、OSS活動実績が(少なくとも技術を重視している企業や組織に対して)非常にポジティブなアピールになることは明らかですね。
+ ピープルスキルを学ぶ   オープンソースは、人々の衝突を解消したり、チームを組織したり、仕事の優先順位付けをするなどといったリーダーシップやマネジメントスキルを実践する機会を提供してくれます。
+ OSS活動を通してあたかも様々な企業でプロジェクトを担当しているような仕事力も身につけることができます。
+ たとえそれが小さな変化であっても、あなたに自信を与えます((現状は日本語訳が&amp;quot;変化を起こせるようになる助けとなる、たとえそれが小さな変化であったとしても&amp;quot;という訳ですが不自然なので修正しています。))   オープンソースは、人々が自身の人生や世界をどのように経験し学ぶかの主体性を感じられることを助けてくれます。((現状は日本語訳が&amp;quot;オープンソースによって、人々は人生や世界をどう経験するかが自分自身のものだと感じられることを助けてくれます。&amp;ldquo;となっていますが不自然なので修正しています。))
+ たとえ小さな変化でも自分自身の活動がある種の歴史として残っているという実感は人生を豊かにすると思います。
+Section 2 コントリビュートするということが意味するもの この節ではOSS貢献というのがバグ修正をすることだけではないということを示してくれています。
+ オープンソースプロジェクトに関わるにはあらゆる方法があります。そして、少しのコツがあればあなたの経験を最大限活かす事ができるでしょう。
+  イベントを計画するのが好きですか？  アクションの例
+ コミュニティメンバーが発表するのにちょうどよいカンファレンスを見つけるのを手伝う
+  デザインをするのが好きですか？  アクションの例</description>
+    </item>
+    
+    <item>
+      <title>GitのコミットメッセージでCHANGELOGをいい感じに運用したい</title>
+      <link>http://example.org/posts/post-1/</link>
+      <pubDate>Wed, 04 Dec 2019 00:09:34 +0900</pubDate>
+      
+      <guid>http://example.org/posts/post-1/</guid>
+      <description>この記事は Git Advent Calendar 2019 - Qiita 7日目の記事です。
+CHANGELOGっていうのはね よく見るこんなやつ
+  このバージョンではどんな改修があったのか利用者がザッと見て把握してもらうためのもの。
+つまり作成するには前バージョンからの差分をサマライズする作業が必要になるがこれを自動化でいい感じにしたい！
+コミットメッセージからCHANGELOG用テキストを出力してくれるツール git-chglog 素晴らしいツールがあった。
+git-chglog
+これはコミットメッセージからキーワードを抽出集約してCHANGELOG用のテキストを標準出力に出力してくれるツール。
+同様なツールでこれとかが有名らしいがgit-chglogはどの言語にも依存しない汎用的なツール。
+自分がプライベートで開発してるプロジェクトのコミットメッセージを使って試してみる。
+git-chglogの設定ファイル上でコミットメッセージからの抽出条件と集約方法を定義する コミットメッセージを確認   こんな感じ。
+普段なんとなくで、バグ改修したら:bug:、何か機能実装したら:sparkles: か :tada: を先頭につけていた。 :bug:と:sparkles: はGitHubなどでそれぞれ 🐛 ✨のemojiが表示される。
+今回はこのコミットメッセージのタイトルをCHANGELOGの出力対象にするのをゴールにする。
+emojiについては後述。
+※ ちなみに上記の画像のようにコミットメッセージだけ得るには
+git log --pretty=oneline --abbrev-commit とやると良いとのこと from https://stackoverflow.com/a/4488858
+git-chglogの設定ファイル 設定ファイルとテンプレートファイルを用意する必要がある。
+本家は→のような感じ https://github.com/git-chglog/git-chglog/tree/master/.chglog
+この2ファイルは同一レポジトリ上になくても良く-cオプションで指定できる。
+設定を以下の様にする。
+config.yml
+style: github template: CHANGELOG.tpl.md info: title: CHANGELOG #repository_url: https://github.com/momotaro98/XXXX options: commits: filters: # 集約対象のType(emoji)を設定 Type: - sparkles - bug commit_groups: title_maps: sparkles: Features bug: Bug Fixes header: pattern: &amp;#34;^:(\\w*)\\:\\s(.</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>http://example.org/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/about/</guid>
+      <description>momotaro98 is a software engineer with experience of web development, architecture design, agile, and DevOps.
+SKILLS, EXPERIENCE, and EDUCATION See my LindedIn profile.
+Creations and OSS contribution See my GitHub account.
+Contributing back to OSS projects is a strong passion of mine, and requires a considerate approach to learn norms, standards and approach for each community for a successful merge!
+Ariticle post See my Qiita account.</description>
+    </item>
+    
+  </channel>
+</rss>
