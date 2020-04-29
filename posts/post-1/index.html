@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>GitのコミットメッセージでCHANGELOGをいい感じに運用したい - TBD</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta itemprop="name" content="GitのコミットメッセージでCHANGELOGをいい感じに運用したい">
+<meta itemprop="description" content="この記事は Git Advent Calendar 2019 - Qiita 7日目の記事です。
+CHANGELOGっていうのはね よく見るこんなやつ
+  このバージョンではどんな改修があったのか利用者がザッと見て把握してもらうためのもの。
+つまり作成するには前バージョンからの差分をサマライズする作業が必要になるがこれを自動化でいい感じにしたい！
+コミットメッセージからCHANGELOG用テキストを出力してくれるツール git-chglog 素晴らしいツールがあった。
+git-chglog
+これはコミットメッセージからキーワードを抽出集約してCHANGELOG用のテキストを標準出力に出力してくれるツール。
+同様なツールでこれとかが有名らしいがgit-chglogはどの言語にも依存しない汎用的なツール。
+自分がプライベートで開発してるプロジェクトのコミットメッセージを使って試してみる。
+git-chglogの設定ファイル上でコミットメッセージからの抽出条件と集約方法を定義する コミットメッセージを確認   こんな感じ。
+普段なんとなくで、バグ改修したら:bug:、何か機能実装したら:sparkles: か :tada: を先頭につけていた。 :bug:と:sparkles: はGitHubなどでそれぞれ 🐛 ✨のemojiが表示される。
+今回はこのコミットメッセージのタイトルをCHANGELOGの出力対象にするのをゴールにする。
+emojiについては後述。
+※ ちなみに上記の画像のようにコミットメッセージだけ得るには
+git log --pretty=oneline --abbrev-commit とやると良いとのこと from https://stackoverflow.com/a/4488858
+git-chglogの設定ファイル 設定ファイルとテンプレートファイルを用意する必要がある。
+本家は→のような感じ https://github.com/git-chglog/git-chglog/tree/master/.chglog
+この2ファイルは同一レポジトリ上になくても良く-cオプションで指定できる。
+設定を以下の様にする。
+config.yml
+style: github template: CHANGELOG.tpl.md info: title: CHANGELOG #repository_url: https://github.com/momotaro98/XXXX options: commits: filters: # 集約対象のType(emoji)を設定 Type: - sparkles - bug commit_groups: title_maps: sparkles: Features bug: Bug Fixes header: pattern: &#34;^:(\\w*)\\:\\s(.">
+<meta itemprop="datePublished" content="2019-12-04T00:09:34&#43;09:00" />
+<meta itemprop="dateModified" content="2019-12-04T00:09:34&#43;09:00" />
+<meta itemprop="wordCount" content="371">
+
+
+
+<meta itemprop="keywords" content="Git," /><meta property="og:title" content="GitのコミットメッセージでCHANGELOGをいい感じに運用したい" />
+<meta property="og:description" content="この記事は Git Advent Calendar 2019 - Qiita 7日目の記事です。
+CHANGELOGっていうのはね よく見るこんなやつ
+  このバージョンではどんな改修があったのか利用者がザッと見て把握してもらうためのもの。
+つまり作成するには前バージョンからの差分をサマライズする作業が必要になるがこれを自動化でいい感じにしたい！
+コミットメッセージからCHANGELOG用テキストを出力してくれるツール git-chglog 素晴らしいツールがあった。
+git-chglog
+これはコミットメッセージからキーワードを抽出集約してCHANGELOG用のテキストを標準出力に出力してくれるツール。
+同様なツールでこれとかが有名らしいがgit-chglogはどの言語にも依存しない汎用的なツール。
+自分がプライベートで開発してるプロジェクトのコミットメッセージを使って試してみる。
+git-chglogの設定ファイル上でコミットメッセージからの抽出条件と集約方法を定義する コミットメッセージを確認   こんな感じ。
+普段なんとなくで、バグ改修したら:bug:、何か機能実装したら:sparkles: か :tada: を先頭につけていた。 :bug:と:sparkles: はGitHubなどでそれぞれ 🐛 ✨のemojiが表示される。
+今回はこのコミットメッセージのタイトルをCHANGELOGの出力対象にするのをゴールにする。
+emojiについては後述。
+※ ちなみに上記の画像のようにコミットメッセージだけ得るには
+git log --pretty=oneline --abbrev-commit とやると良いとのこと from https://stackoverflow.com/a/4488858
+git-chglogの設定ファイル 設定ファイルとテンプレートファイルを用意する必要がある。
+本家は→のような感じ https://github.com/git-chglog/git-chglog/tree/master/.chglog
+この2ファイルは同一レポジトリ上になくても良く-cオプションで指定できる。
+設定を以下の様にする。
+config.yml
+style: github template: CHANGELOG.tpl.md info: title: CHANGELOG #repository_url: https://github.com/momotaro98/XXXX options: commits: filters: # 集約対象のType(emoji)を設定 Type: - sparkles - bug commit_groups: title_maps: sparkles: Features bug: Bug Fixes header: pattern: &#34;^:(\\w*)\\:\\s(." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/post-1/" />
+<meta property="article:published_time" content="2019-12-04T00:09:34+09:00" />
+<meta property="article:modified_time" content="2019-12-04T00:09:34+09:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="GitのコミットメッセージでCHANGELOGをいい感じに運用したい"/>
+<meta name="twitter:description" content="この記事は Git Advent Calendar 2019 - Qiita 7日目の記事です。
+CHANGELOGっていうのはね よく見るこんなやつ
+  このバージョンではどんな改修があったのか利用者がザッと見て把握してもらうためのもの。
+つまり作成するには前バージョンからの差分をサマライズする作業が必要になるがこれを自動化でいい感じにしたい！
+コミットメッセージからCHANGELOG用テキストを出力してくれるツール git-chglog 素晴らしいツールがあった。
+git-chglog
+これはコミットメッセージからキーワードを抽出集約してCHANGELOG用のテキストを標準出力に出力してくれるツール。
+同様なツールでこれとかが有名らしいがgit-chglogはどの言語にも依存しない汎用的なツール。
+自分がプライベートで開発してるプロジェクトのコミットメッセージを使って試してみる。
+git-chglogの設定ファイル上でコミットメッセージからの抽出条件と集約方法を定義する コミットメッセージを確認   こんな感じ。
+普段なんとなくで、バグ改修したら:bug:、何か機能実装したら:sparkles: か :tada: を先頭につけていた。 :bug:と:sparkles: はGitHubなどでそれぞれ 🐛 ✨のemojiが表示される。
+今回はこのコミットメッセージのタイトルをCHANGELOGの出力対象にするのをゴールにする。
+emojiについては後述。
+※ ちなみに上記の画像のようにコミットメッセージだけ得るには
+git log --pretty=oneline --abbrev-commit とやると良いとのこと from https://stackoverflow.com/a/4488858
+git-chglogの設定ファイル 設定ファイルとテンプレートファイルを用意する必要がある。
+本家は→のような感じ https://github.com/git-chglog/git-chglog/tree/master/.chglog
+この2ファイルは同一レポジトリ上になくても良く-cオプションで指定できる。
+設定を以下の様にする。
+config.yml
+style: github template: CHANGELOG.tpl.md info: title: CHANGELOG #repository_url: https://github.com/momotaro98/XXXX options: commits: filters: # 集約対象のType(emoji)を設定 Type: - sparkles - bug commit_groups: title_maps: sparkles: Features bug: Bug Fixes header: pattern: &#34;^:(\\w*)\\:\\s(."/>
+<link href='https://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" media="screen" href="http://example.org/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="http://example.org/css/main.css" />
+
+        <link id="dark-scheme" rel="stylesheet" type="text/css" href="http://example.org/css/dark.css" />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+		<script src="http://example.org/js/main.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper">
+		<div class="header">
+	
+		<div class="avatar">
+			<a href="http://example.org/">
+				<img src="https://qiita-user-profile-images.imgix.net/https%3A%2F%2Fs3-ap-northeast-1.amazonaws.com%2Fqiita-image-store%2F0%2F91562%2F96046a37bf87d952eda27e1a5588a3837dd8ffdb%2Fx_large.png%3F1580226511?ixlib=rb-1.2.2&amp;auto=compress%2Cformat&amp;lossless=0&amp;w=48&amp;s=3dac90b0cda60417bbdb6e8212f35d23" alt="TBD" />
+			</a>
+		</div>
+	
+	<h1 class="site-title"><a href="http://example.org/">TBD</a></h1>
+	<div class="site-description"><p>momotaro98&rsquo;s personal blog</p><nav class="nav social">
+			<ul class="flat"><li><a href="https://github.com/momotaro98" title="GitHub"><i data-feather="github"></i></a></li><li><a href="https://twitter.com/jhtarosan" title="Twitter"><i data-feather="twitter"></i></a></li><li><a href="https://www.linkedin.com/in/shintaro-ikeda-8382b2118/" title="LinkedIn"><i data-feather="linkedin"></i></a></li><li><a href="/index.xml" title="RSS"><i data-feather="rss"></i></a></li></ul>
+		</nav><span class="scheme-toggle"><a href="#" id="scheme-toggle"></a></div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/posts">All posts</a>
+			</li>
+			
+			<li>
+				<a href="/about">About</a>
+			</li>
+			
+			<li>
+				<a href="/tags">Tags</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post">
+			<div class="post-header">
+				
+					<div class="meta">
+						<div class="date">
+							<span class="day">04</span>
+							<span class="rest">Dec 2019</span>
+						</div>
+					</div>
+				
+				<div class="matter">
+					<h1 class="title">GitのコミットメッセージでCHANGELOGをいい感じに運用したい</h1>
+				</div>
+			</div>
+					
+			<div class="markdown">
+				<p>この記事は <a href="https://qiita.com/advent-calendar/2019/git">Git Advent Calendar 2019 - Qiita</a> 7日目の記事です。</p>
+<h2 id="changelogっていうのはね">CHANGELOGっていうのはね</h2>
+<p>よく見るこんなやつ</p>
+<figure>
+    <img src="https://raw.githubusercontent.com/momotaro98/my-project-images/master/my-blog-post/post-1/20191203204149.png"/> 
+</figure>
+
+<p>このバージョンではどんな改修があったのか利用者がザッと見て把握してもらうためのもの。</p>
+<p>つまり作成するには前バージョンからの差分をサマライズする作業が必要になるがこれを自動化でいい感じにしたい！</p>
+<h2 id="コミットメッセージからchangelog用テキストを出力してくれるツール-git-chglog">コミットメッセージからCHANGELOG用テキストを出力してくれるツール git-chglog</h2>
+<p>素晴らしいツールがあった。</p>
+<p><a href="https://blog.wadackel.me/2018/git-chglog">git-chglog</a></p>
+<p>これはコミットメッセージからキーワードを抽出集約してCHANGELOG用のテキストを標準出力に出力してくれるツール。</p>
+<p>同様なツールで<a href="https://github.com/conventional-changelog/conventional-changelog">これとか</a>が有名らしいがgit-chglogはどの言語にも依存しない汎用的なツール。</p>
+<p>自分がプライベートで開発してるプロジェクトのコミットメッセージを使って試してみる。</p>
+<h3 id="git-chglogの設定ファイル上でコミットメッセージからの抽出条件と集約方法を定義する">git-chglogの設定ファイル上でコミットメッセージからの抽出条件と集約方法を定義する</h3>
+<h4 id="コミットメッセージを確認">コミットメッセージを確認</h4>
+<figure>
+    <img src="https://raw.githubusercontent.com/momotaro98/my-project-images/master/my-blog-post/post-1/20191203210547.png"/> 
+</figure>
+
+<p>こんな感じ。</p>
+<p>普段なんとなくで、バグ改修したら<code>:bug:</code>、何か機能実装したら<code>:sparkles:</code> か <code>:tada:</code> を先頭につけていた。
+<code>:bug:</code>と<code>:sparkles:</code> はGitHubなどでそれぞれ 🐛 ✨のemojiが表示される。</p>
+<p>今回はこのコミットメッセージのタイトルをCHANGELOGの出力対象にするのをゴールにする。</p>
+<p>emojiについては後述。</p>
+<p>※ ちなみに上記の画像のようにコミットメッセージだけ得るには</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">git log --pretty=oneline --abbrev-commit
+</code></pre></div><p>とやると良いとのこと from  <a href="https://stackoverflow.com/a/4488858">https://stackoverflow.com/a/4488858</a></p>
+<h4 id="git-chglogの設定ファイル">git-chglogの設定ファイル</h4>
+<p>設定ファイルとテンプレートファイルを用意する必要がある。</p>
+<p>本家は→のような感じ <a href="https://github.com/git-chglog/git-chglog/tree/master/.chglog">https://github.com/git-chglog/git-chglog/tree/master/.chglog</a></p>
+<p>この2ファイルは同一レポジトリ上になくても良く<code>-c</code>オプションで指定できる。</p>
+<p>設定を以下の様にする。</p>
+<p><code>config.yml</code></p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">style: github
+template: CHANGELOG.tpl.md
+info:
+  title: CHANGELOG
+  #repository_url: https://github.com/momotaro98/XXXX
+options:
+  commits:
+    filters: # 集約対象のType(emoji)を設定 
+      Type:
+        - sparkles
+        - bug
+  commit_groups:
+    title_maps:
+      sparkles: Features
+      bug: Bug Fixes
+  header:
+    pattern: &#34;^:(\\w*)\\:\\s(.*)$&#34; #抽出条件を正規表現で。今回は `:emoji: message...`なものが対象
+    pattern_maps:
+      - Type
+      - Subject
+  issues:
+    prefix:
+      - #
+  notes:
+    keywords:
+      - BREAKING CHANGE
+</code></pre></div><p><code>CHANGELOG.tpl.md</code></p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">{{ range .Versions }}
+&lt;a name=&#34;{{ .Tag.Name }}&#34;&gt;&lt;/a&gt;
+
+## {{ .Tag.Name }}
+
+&gt; {{ datetime &#34;2006-01-02&#34; .Tag.Date }}
+
+{{ range .CommitGroups -}}
+### {{ .Title }}
+
+{{ range .Commits -}}
+* {{ .Subject }}
+{{ end }}
+{{ end -}}
+
+{{- if .NoteGroups -}}
+{{ range .NoteGroups -}}
+### {{ .Title }}
+
+{{ range .Notes }}
+{{ .Body }}
+{{ end }}
+{{ end -}}
+{{ end -}}
+{{ end -}}
+</code></pre></div><h4 id="コマンドを叩いて出力">コマンドを叩いて出力</h4>
+<p>予めGitのタグを付与し指定してコマンドを叩く。指定しない場合はすべてのタグバージョン分が出力される。</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">$ git-chglog --config PATHTO/.chglog/config.yml v1.0.1
+
+&lt;a name=&#34;v1.0.1&#34;&gt;&lt;/a&gt;
+
+## v1.0.1
+
+&gt; 2019-11-17
+
+### Bug Fixes
+
+* Fix bug for birthday query in userservice
+* :+1: Update tag type type
+* Fix missing part
+* Add 8081 port into docker-compose yaml
+* Fix JSON struct bug in party service
+
+### Features
+
+* Apply wire for DI management :recycle:
+* Implement GET user API
+* Add domain logic of user service and refactor tag service :green_heart:
+* Add photoUrl column in users table
+* Add feature of creating chat room in Firebase Cloud Firestore
+* Adopt Redis
+* Un:rocket: :up: Add user repository to fetch user data from Firebase
+* Add GetParties by using time range in gRPC part
+* Implement GetEachUserSchedules method
+* Add new tables, parties and partymembers
+* Implement func of returning a newly added userschedule
+* Adopt Go Modules and create a Dockerfile
+</code></pre></div><p>いい感じに標準出力に出た。</p>
+<p>後はこの出力をどうするかはチームでの運用次第になる。<code>CHANGELOG.md</code>上で管理するならば</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">$ git-chglog --config PATHTO/.chglog/config.yml v1.0.1 &gt;&gt; CHANGELOG.md
+</code></pre></div><p>とできる。GitHub、GitLabのリリースノート上に記載するならばAPIを使ってCIに乗せてタグのPushのキックで自動で出力させる運用も可能。</p>
+<p>上記の開発者さんのブログにもあるが、出力された内容を後からも修正することを想定していて現実的で良い。</p>
+<h4 id="ちなみに">ちなみに</h4>
+<p>後述するemoji用のテンプレ設定もあれば良いじゃないかということでプルリクを投げマージしてもらうことができた。</p>
+<p><a href="https://github.com/git-chglog/git-chglog/pull/59">https://github.com/git-chglog/git-chglog/pull/59</a></p>
+<h2 id="チームでのコミットメッセージ統一の運用はチョトメンドイ">チームでのコミットメッセージ統一の運用はチョトメンドイ</h2>
+<p>上記のようなツールを使うには開発チーム全員でコミットメッセージのルールを決めて普段から従う必要がある。</p>
+<p>面倒をなんとか工夫する方法としてはGitのHookの機能を使うことがあげられる。</p>
+<p>[https://gist.github.com/pgilad/5d7e4db725a906bd7aa7#file-commit-msg-sh:embed:cite]</p>
+<script type="application/javascript" src="https://gist.github.com/pgilad/5d7e4db725a906bd7aa7.js"></script>
+
+<p>こんな感じでCommitするときにチェックのスクリプトが走ってNGだとコミットできないという具合。
+他にも(そのように運用している場合)ブランチ名からIssue番号を抽出してコミットメッセージにデフォで出すとかもスクリプトを書けばできる。例→
+<a href="https://github.com/momotaro98/dotfiles/blob/master/.git_template/hooks/prepare-commit-msg">https://github.com/momotaro98/dotfiles/blob/master/.git_template/hooks/prepare-commit-msg</a></p>
+<p>しかし！ これには</p>
+<ul>
+<li><code>.git/hooks</code>の設定ファイルをどうやってチームメンバでシェアするか</li>
+<li>SourceTreeとかGitKrakenとかのGitクライアントを使うとHookがうまく動かない！</li>
+</ul>
+<p>という課題が出てしんどい。費用対効果的にそんな頑張れないぞ(それを言っちゃぁおしめぇよ)</p>
+<h2 id="emoji">emoji</h2>
+<h3 id="emoji-format">emoji format</h3>
+<p>今のチームメンバにゆる〜く提案してやってもらおうとしているのが上記と同様のemojiフォーマットなコミットメッセージを書くこと。</p>
+<p>グローバルにみんなemojiが大好き！</p>
+<p><a href="https://gitmoji.carloscuesta.me/">https://gitmoji.carloscuesta.me/</a></p>
+<p>しかしコミットのタイプとemojiの対応に標準はなく色々な定義マップがネットに存在してしまっている。</p>
+<p>例えばリファクタリングのコミット用の絵文字には :hammer: 🔨, :recycle: ♻️などいくつかあるっぽい。</p>
+<p>CHANGELOGにはFeaturesとFix Bugsだけで十分なはずなので、機能をこのコミットで実装できた！っていうときは:sparkles: ✨ 、バグ直した〜っていうときは:bug:🐛を先頭につけよう、それだけの運用にしようとしている。</p>
+<h3 id="いつもemojiを">いつもemojiを</h3>
+<p>最後に。Gitのコミット時のエディタ上にテンプレートを持つことができる。</p>
+<p><a href="https://github.com/momotaro98/dotfiles/blob/master/.gitmessage.txt">https://github.com/momotaro98/dotfiles/blob/master/.gitmessage.txt</a></p>
+<p>こういったファイルを<code>.gitconfig</code>上で</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">[commit]
+	template = ~/.gitmessage.txt # commit template texts
+</code></pre></div><p>のようにしよう。これにより</p>
+<ul>
+<li>エディタ上の検索でどのemojiを使えば良いかがわかる</li>
+<li>エディタの補完でタイポしないで済む</li>
+</ul>
+<p>デモ</p>
+<figure>
+    <img src="https://raw.githubusercontent.com/momotaro98/my-project-images/master/my-blog-post/post-1/20191203222756.gif"/> 
+</figure>
+
+<p>Vimはいいぞ〜(主旨が変わる)</p>
+
+			</div>
+
+			<div class="tags">
+				
+					
+						<ul class="flat">
+							
+							<li><a href="/tags/git">Git</a></li>
+							
+						</ul>
+					
+				
+			</div></div>
+	</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div>2019  © momotaro98 |  <a href="https://github.com/knadh/hugo-ink">Ink</a> theme on <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+<script>feather.replace()</script>
+</body>
+</html>

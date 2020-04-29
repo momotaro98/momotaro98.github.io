@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>TBD</title>
-    <link>http://example.org/</link>
-    <description>Recent content on TBD</description>
+    <title>Posts on TBD</title>
+    <link>http://example.org/posts/</link>
+    <description>Recent content in Posts on TBD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© momotaro98</copyright>
     <lastBuildDate>Sun, 23 Feb 2020 19:11:31 +0900</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -67,19 +67,6 @@ git-chglogの設定ファイル 設定ファイルとテンプレートファイ
 設定を以下の様にする。
 config.yml
 style: github template: CHANGELOG.tpl.md info: title: CHANGELOG #repository_url: https://github.com/momotaro98/XXXX options: commits: filters: # 集約対象のType(emoji)を設定 Type: - sparkles - bug commit_groups: title_maps: sparkles: Features bug: Bug Fixes header: pattern: &amp;#34;^:(\\w*)\\:\\s(.</description>
-    </item>
-    
-    <item>
-      <title>About me</title>
-      <link>http://example.org/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/about/</guid>
-      <description>momotaro98 is a software engineer with experience of web development, architecture design, agile, and DevOps.
-SKILLS, EXPERIENCE, and EDUCATION See my LindedIn profile.
-Creations and OSS contribution See my GitHub account.
-Contributing back to OSS projects is a strong passion of mine, and requires a considerate approach to learn norms, standards and approach for each community for a successful merge!
-Ariticle post See my Qiita account.</description>
     </item>
     
   </channel>

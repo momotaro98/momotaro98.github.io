@@ -1,256 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Shintaro Ikeda</title>
-    <link>https://momotaro98.github.io/tags/</link>
-    <description>Recent content in Tags on Shintaro Ikeda</description>
+    <title>Tags on TBD</title>
+    <link>http://example.org/tags/</link>
+    <description>Recent content in Tags on TBD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 May 2019 12:41:05 -0500</lastBuildDate>
+    <copyright>© momotaro98</copyright>
+    <lastBuildDate>Sun, 23 Feb 2020 19:11:31 +0900</lastBuildDate>
     
-	<atom:link href="https://momotaro98.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Firebase</title>
-      <link>https://momotaro98.github.io/tags/firebase/</link>
-      <pubDate>Wed, 01 May 2019 12:41:05 -0500</pubDate>
+      <title>OSS</title>
+      <link>http://example.org/tags/oss/</link>
+      <pubDate>Sun, 23 Feb 2020 19:11:31 +0900</pubDate>
       
-      <guid>https://momotaro98.github.io/tags/firebase/</guid>
+      <guid>http://example.org/tags/oss/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Go</title>
-      <link>https://momotaro98.github.io/tags/go/</link>
-      <pubDate>Wed, 01 May 2019 12:41:05 -0500</pubDate>
+      <title>Git</title>
+      <link>http://example.org/tags/git/</link>
+      <pubDate>Wed, 04 Dec 2019 00:09:34 +0900</pubDate>
       
-      <guid>https://momotaro98.github.io/tags/go/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>gRPC</title>
-      <link>https://momotaro98.github.io/tags/grpc/</link>
-      <pubDate>Wed, 01 May 2019 12:41:05 -0500</pubDate>
-      
-      <guid>https://momotaro98.github.io/tags/grpc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>micro service</title>
-      <link>https://momotaro98.github.io/tags/micro-service/</link>
-      <pubDate>Wed, 01 May 2019 12:41:05 -0500</pubDate>
-      
-      <guid>https://momotaro98.github.io/tags/micro-service/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>MySQL</title>
-      <link>https://momotaro98.github.io/tags/mysql/</link>
-      <pubDate>Wed, 01 May 2019 12:41:05 -0500</pubDate>
-      
-      <guid>https://momotaro98.github.io/tags/mysql/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Node.js</title>
-      <link>https://momotaro98.github.io/tags/node.js/</link>
-      <pubDate>Wed, 01 May 2019 12:41:05 -0500</pubDate>
-      
-      <guid>https://momotaro98.github.io/tags/node.js/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Optimization</title>
-      <link>https://momotaro98.github.io/tags/optimization/</link>
-      <pubDate>Wed, 01 May 2019 12:41:05 -0500</pubDate>
-      
-      <guid>https://momotaro98.github.io/tags/optimization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://momotaro98.github.io/tags/python/</link>
-      <pubDate>Wed, 01 May 2019 12:41:05 -0500</pubDate>
-      
-      <guid>https://momotaro98.github.io/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vue.js</title>
-      <link>https://momotaro98.github.io/tags/vue.js/</link>
-      <pubDate>Wed, 01 May 2019 12:41:05 -0500</pubDate>
-      
-      <guid>https://momotaro98.github.io/tags/vue.js/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Azure-Functions</title>
-      <link>https://momotaro98.github.io/tags/azure-functions/</link>
-      <pubDate>Wed, 11 Apr 2018 12:41:05 -0500</pubDate>
-      
-      <guid>https://momotaro98.github.io/tags/azure-functions/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>bot</title>
-      <link>https://momotaro98.github.io/tags/bot/</link>
-      <pubDate>Wed, 11 Apr 2018 12:41:05 -0500</pubDate>
-      
-      <guid>https://momotaro98.github.io/tags/bot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CSharp</title>
-      <link>https://momotaro98.github.io/tags/csharp/</link>
-      <pubDate>Wed, 11 Apr 2018 12:41:05 -0500</pubDate>
-      
-      <guid>https://momotaro98.github.io/tags/csharp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rest APIs</title>
-      <link>https://momotaro98.github.io/tags/rest-apis/</link>
-      <pubDate>Wed, 11 Apr 2018 12:41:05 -0500</pubDate>
-      
-      <guid>https://momotaro98.github.io/tags/rest-apis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Azure</title>
-      <link>https://momotaro98.github.io/tags/azure/</link>
-      <pubDate>Mon, 11 Dec 2017 12:41:05 -0500</pubDate>
-      
-      <guid>https://momotaro98.github.io/tags/azure/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Azure-Table-Storage</title>
-      <link>https://momotaro98.github.io/tags/azure-table-storage/</link>
-      <pubDate>Mon, 11 Dec 2017 12:41:05 -0500</pubDate>
-      
-      <guid>https://momotaro98.github.io/tags/azure-table-storage/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>chrome-extension</title>
-      <link>https://momotaro98.github.io/tags/chrome-extension/</link>
-      <pubDate>Sat, 11 Feb 2017 12:41:05 -0500</pubDate>
-      
-      <guid>https://momotaro98.github.io/tags/chrome-extension/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>javascript</title>
-      <link>https://momotaro98.github.io/tags/javascript/</link>
-      <pubDate>Sat, 11 Feb 2017 12:41:05 -0500</pubDate>
-      
-      <guid>https://momotaro98.github.io/tags/javascript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cli-app</title>
-      <link>https://momotaro98.github.io/tags/cli-app/</link>
-      <pubDate>Fri, 10 Feb 2017 12:41:05 -0500</pubDate>
-      
-      <guid>https://momotaro98.github.io/tags/cli-app/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>machine-learning</title>
-      <link>https://momotaro98.github.io/tags/machine-learning/</link>
-      <pubDate>Mon, 12 Dec 2016 12:41:05 -0500</pubDate>
-      
-      <guid>https://momotaro98.github.io/tags/machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>research</title>
-      <link>https://momotaro98.github.io/tags/research/</link>
-      <pubDate>Mon, 12 Dec 2016 12:41:05 -0500</pubDate>
-      
-      <guid>https://momotaro98.github.io/tags/research/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Arduino</title>
-      <link>https://momotaro98.github.io/tags/arduino/</link>
-      <pubDate>Mon, 11 Apr 2016 12:41:05 -0500</pubDate>
-      
-      <guid>https://momotaro98.github.io/tags/arduino/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Raspberry-Pi</title>
-      <link>https://momotaro98.github.io/tags/raspberry-pi/</link>
-      <pubDate>Mon, 11 Apr 2016 12:41:05 -0500</pubDate>
-      
-      <guid>https://momotaro98.github.io/tags/raspberry-pi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Zigbee</title>
-      <link>https://momotaro98.github.io/tags/zigbee/</link>
-      <pubDate>Mon, 11 Apr 2016 12:41:05 -0500</pubDate>
-      
-      <guid>https://momotaro98.github.io/tags/zigbee/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Flask</title>
-      <link>https://momotaro98.github.io/tags/flask/</link>
-      <pubDate>Thu, 11 Feb 2016 12:41:05 -0500</pubDate>
-      
-      <guid>https://momotaro98.github.io/tags/flask/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PostgreSQL</title>
-      <link>https://momotaro98.github.io/tags/postgresql/</link>
-      <pubDate>Thu, 11 Feb 2016 12:41:05 -0500</pubDate>
-      
-      <guid>https://momotaro98.github.io/tags/postgresql/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>natural-language-processing</title>
-      <link>https://momotaro98.github.io/tags/natural-language-processing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://momotaro98.github.io/tags/natural-language-processing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>network</title>
-      <link>https://momotaro98.github.io/tags/network/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://momotaro98.github.io/tags/network/</guid>
+      <guid>http://example.org/tags/git/</guid>
       <description></description>
     </item>
     
