@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Git on TBD</title>
-    <link>http://example.org/tags/git/</link>
-    <description>Recent content in Git on TBD</description>
+    <title>Git on momotaro98 blog</title>
+    <link>https://momotaro98.github.io/tags/git/</link>
+    <description>Recent content in Git on momotaro98 blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© momotaro98</copyright>
     <lastBuildDate>Wed, 04 Dec 2019 00:09:34 +0900</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/git/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://momotaro98.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>GitのコミットメッセージでCHANGELOGをいい感じに運用したい</title>
-      <link>http://example.org/posts/post-1/</link>
+      <link>https://momotaro98.github.io/posts/post-1/</link>
       <pubDate>Wed, 04 Dec 2019 00:09:34 +0900</pubDate>
       
-      <guid>http://example.org/posts/post-1/</guid>
+      <guid>https://momotaro98.github.io/posts/post-1/</guid>
       <description>この記事は Git Advent Calendar 2019 - Qiita 7日目の記事です。
 CHANGELOGっていうのはね よく見るこんなやつ
   このバージョンではどんな改修があったのか利用者がザッと見て把握してもらうためのもの。

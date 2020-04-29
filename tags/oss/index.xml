@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>OSS on TBD</title>
-    <link>http://example.org/tags/oss/</link>
-    <description>Recent content in OSS on TBD</description>
+    <title>OSS on momotaro98 blog</title>
+    <link>https://momotaro98.github.io/tags/oss/</link>
+    <description>Recent content in OSS on momotaro98 blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© momotaro98</copyright>
     <lastBuildDate>Sun, 23 Feb 2020 19:11:31 +0900</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/oss/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://momotaro98.github.io/tags/oss/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>GitHub公式のHow to Contribute to Open Sourceが神ガイドだった</title>
-      <link>http://example.org/posts/post-2/</link>
+      <link>https://momotaro98.github.io/posts/post-2/</link>
       <pubDate>Sun, 23 Feb 2020 19:11:31 +0900</pubDate>
       
-      <guid>http://example.org/posts/post-2/</guid>
+      <guid>https://momotaro98.github.io/posts/post-2/</guid>
       <description>はじめに GitHub公式のHow to Contribute to Open Source  (日本語版)が神だったので備忘録がてら要約的に記載。
 OSSにコントリビュートしたいけどどうしたら良いかわからない人は絶対一読するべき。
 Section 1 OSSにコントリビュートする理由は？ とても重要なところです。そもそもなぜOSSにあえてコントリビュートするのか言語化されています。

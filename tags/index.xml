@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on TBD</title>
-    <link>http://example.org/tags/</link>
-    <description>Recent content in Tags on TBD</description>
+    <title>Tags on momotaro98 blog</title>
+    <link>https://momotaro98.github.io/tags/</link>
+    <description>Recent content in Tags on momotaro98 blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© momotaro98</copyright>
     <lastBuildDate>Sun, 23 Feb 2020 19:11:31 +0900</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://momotaro98.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>OSS</title>
-      <link>http://example.org/tags/oss/</link>
+      <link>https://momotaro98.github.io/tags/oss/</link>
       <pubDate>Sun, 23 Feb 2020 19:11:31 +0900</pubDate>
       
-      <guid>http://example.org/tags/oss/</guid>
+      <guid>https://momotaro98.github.io/tags/oss/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Git</title>
-      <link>http://example.org/tags/git/</link>
+      <link>https://momotaro98.github.io/tags/git/</link>
       <pubDate>Wed, 04 Dec 2019 00:09:34 +0900</pubDate>
       
-      <guid>http://example.org/tags/git/</guid>
+      <guid>https://momotaro98.github.io/tags/git/</guid>
       <description></description>
     </item>
     

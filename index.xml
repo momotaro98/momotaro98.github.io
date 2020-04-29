@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>TBD</title>
-    <link>http://example.org/</link>
-    <description>Recent content on TBD</description>
+    <title>momotaro98 blog</title>
+    <link>https://momotaro98.github.io/</link>
+    <description>Recent content on momotaro98 blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© momotaro98</copyright>
     <lastBuildDate>Sun, 23 Feb 2020 19:11:31 +0900</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://momotaro98.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>GitHub公式のHow to Contribute to Open Sourceが神ガイドだった</title>
-      <link>http://example.org/posts/post-2/</link>
+      <link>https://momotaro98.github.io/posts/post-2/</link>
       <pubDate>Sun, 23 Feb 2020 19:11:31 +0900</pubDate>
       
-      <guid>http://example.org/posts/post-2/</guid>
+      <guid>https://momotaro98.github.io/posts/post-2/</guid>
       <description>はじめに GitHub公式のHow to Contribute to Open Source  (日本語版)が神だったので備忘録がてら要約的に記載。
 OSSにコントリビュートしたいけどどうしたら良いかわからない人は絶対一読するべき。
 Section 1 OSSにコントリビュートする理由は？ とても重要なところです。そもそもなぜOSSにあえてコントリビュートするのか言語化されています。
@@ -42,10 +42,10 @@ Section 2 コントリビュートするということが意味するもの こ
     
     <item>
       <title>GitのコミットメッセージでCHANGELOGをいい感じに運用したい</title>
-      <link>http://example.org/posts/post-1/</link>
+      <link>https://momotaro98.github.io/posts/post-1/</link>
       <pubDate>Wed, 04 Dec 2019 00:09:34 +0900</pubDate>
       
-      <guid>http://example.org/posts/post-1/</guid>
+      <guid>https://momotaro98.github.io/posts/post-1/</guid>
       <description>この記事は Git Advent Calendar 2019 - Qiita 7日目の記事です。
 CHANGELOGっていうのはね よく見るこんなやつ
   このバージョンではどんな改修があったのか利用者がザッと見て把握してもらうためのもの。
@@ -71,10 +71,10 @@ style: github template: CHANGELOG.tpl.md info: title: CHANGELOG #repository_url:
     
     <item>
       <title>About me</title>
-      <link>http://example.org/about/</link>
+      <link>https://momotaro98.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/about/</guid>
+      <guid>https://momotaro98.github.io/about/</guid>
       <description>momotaro98 is a software engineer with experience of web development, architecture design, agile, and DevOps.
 SKILLS, EXPERIENCE, and EDUCATION See my LindedIn profile.
 Creations and OSS contribution See my GitHub account.

@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on TBD</title>
-    <link>http://example.org/posts/</link>
-    <description>Recent content in Posts on TBD</description>
+    <title>Posts on momotaro98 blog</title>
+    <link>https://momotaro98.github.io/posts/</link>
+    <description>Recent content in Posts on momotaro98 blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© momotaro98</copyright>
     <lastBuildDate>Sun, 23 Feb 2020 19:11:31 +0900</lastBuildDate>
     
-	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://momotaro98.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>GitHub公式のHow to Contribute to Open Sourceが神ガイドだった</title>
-      <link>http://example.org/posts/post-2/</link>
+      <link>https://momotaro98.github.io/posts/post-2/</link>
       <pubDate>Sun, 23 Feb 2020 19:11:31 +0900</pubDate>
       
-      <guid>http://example.org/posts/post-2/</guid>
+      <guid>https://momotaro98.github.io/posts/post-2/</guid>
       <description>はじめに GitHub公式のHow to Contribute to Open Source  (日本語版)が神だったので備忘録がてら要約的に記載。
 OSSにコントリビュートしたいけどどうしたら良いかわからない人は絶対一読するべき。
 Section 1 OSSにコントリビュートする理由は？ とても重要なところです。そもそもなぜOSSにあえてコントリビュートするのか言語化されています。
@@ -42,10 +42,10 @@ Section 2 コントリビュートするということが意味するもの こ
     
     <item>
       <title>GitのコミットメッセージでCHANGELOGをいい感じに運用したい</title>
-      <link>http://example.org/posts/post-1/</link>
+      <link>https://momotaro98.github.io/posts/post-1/</link>
       <pubDate>Wed, 04 Dec 2019 00:09:34 +0900</pubDate>
       
-      <guid>http://example.org/posts/post-1/</guid>
+      <guid>https://momotaro98.github.io/posts/post-1/</guid>
       <description>この記事は Git Advent Calendar 2019 - Qiita 7日目の記事です。
 CHANGELOGっていうのはね よく見るこんなやつ
   このバージョンではどんな改修があったのか利用者がザッと見て把握してもらうためのもの。
