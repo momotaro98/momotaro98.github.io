@@ -14,10 +14,10 @@
     
     <item>
       <title>GitのコミットメッセージでCHANGELOGをいい感じに運用したい</title>
-      <link>https://momotaro98.github.io/posts/post-1/</link>
+      <link>https://momotaro98.github.io/posts/bccca6218a4fdc566545/</link>
       <pubDate>Wed, 04 Dec 2019 00:09:34 +0900</pubDate>
       
-      <guid>https://momotaro98.github.io/posts/post-1/</guid>
+      <guid>https://momotaro98.github.io/posts/bccca6218a4fdc566545/</guid>
       <description>この記事は Git Advent Calendar 2019 - Qiita 7日目の記事です。
 CHANGELOGっていうのはね よく見るこんなやつ
   このバージョンではどんな改修があったのか利用者がザッと見て把握してもらうためのもの。

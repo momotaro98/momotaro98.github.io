@@ -7,17 +7,32 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© momotaro98</copyright>
-    <lastBuildDate>Sun, 23 Feb 2020 19:11:31 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2020 22:18:31 +0900</lastBuildDate>
     
 	<atom:link href="https://momotaro98.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Checker tool go import paths are sorted strictly</title>
+      <link>https://momotaro98.github.io/posts/ee2c33f5e53e3c88a15f/</link>
+      <pubDate>Sat, 30 May 2020 22:18:31 +0900</pubDate>
+      
+      <guid>https://momotaro98.github.io/posts/ee2c33f5e53e3c88a15f/</guid>
+      <description>Introduction In this article I will share Golang checker tool I created. The tool checks import paths are sorted &amp;ldquo;strictly&amp;rdquo;.
+Here&amp;rsquo;s the tool repository link.
+https://github.com/momotaro98/strictimportsort
+The issue goimports supports -local flag when we have local path.
+When we have such an import paths.
+import ( &amp;#34;errors&amp;#34; &amp;#34;github.com/google/wire&amp;#34; &amp;#34;github.com/momotaro98/mixlunch-service-api/partyservice&amp;#34; ) Then run goimports with -local flag
+$ goimports -local &amp;#34;github.com/momotaro98&amp;#34; . The files are sorted with whilte line like following.</description>
+    </item>
+    
+    <item>
       <title>GitHub公式のHow to Contribute to Open Sourceが神ガイドだった</title>
-      <link>https://momotaro98.github.io/posts/post-2/</link>
+      <link>https://momotaro98.github.io/posts/81a7b299f9aad51b34a5/</link>
       <pubDate>Sun, 23 Feb 2020 19:11:31 +0900</pubDate>
       
-      <guid>https://momotaro98.github.io/posts/post-2/</guid>
+      <guid>https://momotaro98.github.io/posts/81a7b299f9aad51b34a5/</guid>
       <description>はじめに GitHub公式のHow to Contribute to Open Source  (日本語版)が神だったので備忘録がてら要約的に記載。
 OSSにコントリビュートしたいけどどうしたら良いかわからない人は絶対一読するべき。
 Section 1 OSSにコントリビュートする理由は？ とても重要なところです。そもそもなぜOSSにあえてコントリビュートするのか言語化されています。
@@ -42,10 +57,10 @@ Section 2 コントリビュートするということが意味するもの こ
     
     <item>
       <title>GitのコミットメッセージでCHANGELOGをいい感じに運用したい</title>
-      <link>https://momotaro98.github.io/posts/post-1/</link>
+      <link>https://momotaro98.github.io/posts/bccca6218a4fdc566545/</link>
       <pubDate>Wed, 04 Dec 2019 00:09:34 +0900</pubDate>
       
-      <guid>https://momotaro98.github.io/posts/post-1/</guid>
+      <guid>https://momotaro98.github.io/posts/bccca6218a4fdc566545/</guid>
       <description>この記事は Git Advent Calendar 2019 - Qiita 7日目の記事です。
 CHANGELOGっていうのはね よく見るこんなやつ
   このバージョンではどんな改修があったのか利用者がザッと見て把握してもらうためのもの。
