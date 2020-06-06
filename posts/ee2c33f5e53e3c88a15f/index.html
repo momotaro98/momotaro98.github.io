@@ -13,7 +13,7 @@ import ( &#34;errors&#34; &#34;github.com/google/wire&#34; &#34;github.com/momot
 $ goimports -local &#34;github.com/momotaro98&#34; . The files are sorted with whilte line like following.">
 <meta itemprop="datePublished" content="2020-05-30T22:18:31&#43;09:00" />
 <meta itemprop="dateModified" content="2020-05-30T22:18:31&#43;09:00" />
-<meta itemprop="wordCount" content="233">
+<meta itemprop="wordCount" content="280">
 
 
 
@@ -125,7 +125,7 @@ $ goimports -local &#34;github.com/momotaro98&#34; . The files are sorted with w
     
     <span style="color:#a31515">&#34;github.com/momotaro98/mixlunch-service-api/partyservice&#34;</span>
 )
-</code></pre></div><p>However, when we have a go file whose import paths are separate with white line, <code>goimports</code> doesn&rsquo;t support sorting for the file.</p>
+</code></pre></div><p>However, when we have a go file whose import paths are separate with white line in advance, <code>goimports</code> doesn&rsquo;t support sorting for the file.</p>
 <div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#00f">import</span> (
     <span style="color:#a31515">&#34;errors&#34;</span>
 
@@ -134,7 +134,7 @@ $ goimports -local &#34;github.com/momotaro98&#34; . The files are sorted with w
     <span style="color:#a31515">&#34;github.com/google/wire&#34;</span>
 )
 </code></pre></div><p>When I use GoLand IDE, it sometimes makes white line separate import paths like above.</p>
-<p>I expected &ldquo;github.com/momotaro98&rdquo; is at last but goimports regards it&rsquo;s fine since it has a white line.</p>
+<p>I expected &ldquo;github.com/momotaro98&rdquo; is at last but goimports regards it&rsquo;s fine since it already has a white line.</p>
 <h2 id="tool-i-made">Tool I made</h2>
 <p><a href="https://github.com/momotaro98/strictimportsort">strictimportsort</a> is a checker tool you can check go files whose import paths are not sorted &ldquo;strictly&rdquo;.</p>
 <div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">$ strictimportsort -exclude &#34;*_mock.go,*.pb.go&#34; -exclude-dir &#34;testmock&#34; -local &#34;github.com/momotaro98&#34; .
@@ -157,7 +157,11 @@ import (
 
         &#34;github.com/momotaro98/mixlunch-service-api/tagservice&#34;
 )
-</code></pre></div>
+</code></pre></div><h2 id="you-can-modify-the-target-files-with--w-option">You can modify the target files with <code>-w</code> option.</h2>
+<p>We can modify the target files by using <code>-w</code> option.</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">$ strictimportsort -w -exclude &#34;*_mock.go,*.pb.go&#34; -exclude-dir &#34;testmock&#34; -local &#34;github.com/momotaro98&#34; .
+</code></pre></div><p>Just adding the <code>-w</code> option, strictimportsort modifies the target files and doesn&rsquo;t show the results.</p>
+
 			</div>
 
 			<div class="tags">
