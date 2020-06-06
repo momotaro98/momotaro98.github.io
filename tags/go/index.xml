@@ -13,7 +13,7 @@
     
     
     <item>
-      <title>Checker tool go import paths are sorted strictly</title>
+      <title>Check and Fix tool Go import paths are sorted more strictly than goimports</title>
       <link>https://momotaro98.github.io/posts/ee2c33f5e53e3c88a15f/</link>
       <pubDate>Sat, 30 May 2020 22:18:31 +0900</pubDate>
       
