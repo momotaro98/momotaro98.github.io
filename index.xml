@@ -13,18 +13,20 @@
     
     
     <item>
-      <title>Check and Fix tool Go import paths are sorted more strictly than goimports</title>
+      <title>I created a better tool than goimports</title>
       <link>https://momotaro98.github.io/posts/ee2c33f5e53e3c88a15f/</link>
       <pubDate>Sat, 30 May 2020 22:18:31 +0900</pubDate>
       
       <guid>https://momotaro98.github.io/posts/ee2c33f5e53e3c88a15f/</guid>
       <description>Introduction In this article I will share Golang checker tool I created. The tool checks import paths are sorted &amp;ldquo;strictly&amp;rdquo;.
 Here&amp;rsquo;s the tool repository link.
-https://github.com/momotaro98/strictimportsort
-The issue goimports supports -local flag when we have local path.
+https://github.com/momotaro98/strictgoimports
+Background There&amp;rsquo;s still an issue of goimports.
+The link is here. https://github.com/golang/go/issues/20818
+I created strictgoimports to resolve this issue.
+Detail of the issue goimports supports -local flag when we have local path.
 When we have such an import paths.
-import ( &amp;#34;errors&amp;#34; &amp;#34;github.com/google/wire&amp;#34; &amp;#34;github.com/momotaro98/mixlunch-service-api/partyservice&amp;#34; ) Then run goimports with -local flag
-$ goimports -local &amp;#34;github.com/momotaro98&amp;#34; . The files are sorted with whilte line like following.</description>
+import ( &amp;#34;errors&amp;#34; &amp;#34;github.com/google/wire&amp;#34; &amp;#34;github.com/momotaro98/mixlunch-service-api/partyservice&amp;#34; ) Then run goimports with -local flag</description>
     </item>
     
     <item>
