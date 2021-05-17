@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://momotaro98.github.io/</loc>
-    <lastmod>2020-05-30T22:18:31+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://momotaro98.github.io/tags/go/</loc>
     <lastmod>2020-05-30T22:18:31+09:00</lastmod>
   </url>
@@ -19,6 +14,11 @@
   
   <url>
     <loc>https://momotaro98.github.io/posts/</loc>
+    <lastmod>2020-05-30T22:18:31+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://momotaro98.github.io/</loc>
     <lastmod>2020-05-30T22:18:31+09:00</lastmod>
   </url>
   
