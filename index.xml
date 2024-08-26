@@ -92,11 +92,10 @@ style: github template: CHANGELOG.tpl.md info: title: CHANGELOG #repository_url:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://momotaro98.github.io/about/</guid>
-      <description>momotaro98 is a software engineer with experience of web development, architecture design, agile, and DevOps.
-SKILLS, EXPERIENCE, and EDUCATION See my LindedIn profile.
-Creations and OSS contribution See my GitHub account.
-Contributing back to OSS projects is a strong passion of mine, and requires a considerate approach to learn norms, standards and approach for each community for a successful merge!
-Ariticle post See my Qiita account.</description>
+      <description>momotaro98 is a Web engineer with experience of backend development, architecture design, DevOps, and SRE.
+SKILLS, EXPERIENCE, and EDUCATION See my LinkedIn profile
+Creations and OSS contribution See my GitHub account
+Article posts See my Qiita account, Zenn account, and this blog posts</description>
     </item>
     
   </channel>
