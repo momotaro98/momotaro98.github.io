@@ -95,7 +95,8 @@ style: github template: CHANGELOG.tpl.md info: title: CHANGELOG #repository_url:
       <description>momotaro98 is a Web engineer with experience of backend development, architecture design, DevOps, and SRE.
 SKILLS, EXPERIENCE, and EDUCATION See my LinkedIn profile
 Creations and OSS contribution See my GitHub account
-Article posts See my Qiita account, Zenn account, and this blog posts</description>
+Article posts See followings
+ my Qiita account my Zenn account this blog posts Company tech blog I posted  RareJob, Inc (2020~2022)  https://rarejob-tech-dept.hatenablog.com/entry/2020/03/19/190000 https://rarejob-tech-dept.hatenablog.com/entry/2020/10/16/190000 https://rarejob-tech-dept.hatenablog.com/entry/2021/11/15/100650 https://rarejob-tech-dept.hatenablog.com/entry/2022/10/21/190000_1      </description>
     </item>
     
   </channel>
